@@ -4,7 +4,7 @@ import { FaProjectDiagram } from 'react-icons/fa'
 import { SiMysql } from 'react-icons/si'
 import { BsFiletypePhp } from 'react-icons/bs'
 import appImage from '../assets/app.webp'
-import taskManagement from '../assets/taskManagement.png'
+import taskManagement from '../assets/taskmanagement.png'
 import bookshop from '../assets/bookshop.png'
 import bikerental from '../assets/bikerental.png'
 
