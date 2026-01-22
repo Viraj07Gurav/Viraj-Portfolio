@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import { FaArrowRight } from 'react-icons/fa6';
 import emailjs from '@emailjs/browser';
-///please dont use my keys
-VITE_EMAILJS_SERVICE_ID=service_lgnsr7n
-VITE_EMAILJS_TEMPLATE_ID=template_islnh72
-VITE_EMAILJS_PUBLIC_KEY=Jk0QyZntRWpXFsuAt
+
 
 const Contact = () => {
     const [formData, setFormData] = useState({
