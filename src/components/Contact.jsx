@@ -71,6 +71,7 @@ const Contact = () => {
                 });
             })
             .catch(() => {
+                  console.error("EmailJS ERROR 👉", error);
                 showStatus('Failed to send message. Try again later.', 'error');
             })
             .finally(() => {
