@@ -28,7 +28,7 @@ const Navbar = () => {
                             rel="noopener noreferrer"
                             
                         >
-                        <button className='flex items-center gap-2 border rounded-3xl px-10 py-4 hover:border-teal-500'>
+                        <button className='flex items-center gap-2 outline-0 border rounded-3xl px-10 py-4 hover:border-teal-500'>
                             RESUME
                             <FaArrowRight />
                         </button>
