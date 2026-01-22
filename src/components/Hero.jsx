@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa6'
 import { assets } from '../assets/asstes'
+
 const handleWork=()=>{
 
 }
@@ -19,7 +20,7 @@ const Hero = () => {
                         {/* button */}
                         <div className='flex flex-col md:flex-row items-center gap-4 mt-8'>
                             <a href="#work" className='decoration-none transition-all duration-300'>
-                            <button  className="bg-black text-gray-100 rounded-full px-10 py-4 flex items-center gap-2 " onClick={handleWork()}>See my Work
+                            <button  className="bg-black text-gray-100 rounded-full px-10 py-4 flex items-center gap-2 " onClick={handleWork}>See my Work
                                 <FaArrowRight/>
                             </button>
                             </a>
@@ -36,7 +37,7 @@ const Hero = () => {
                         {/* border-dashed border-2  */}
                         <div className='relative w-72 h-72 sm:w-80 sm:h-80 floating'> 
                             <div className='absolute inset-0 rounded-2xl overflow-hidden '>
-                                <img className='w-full h-full object-cover' src={assets.profileImg} alt="profile" />
+                                <img className='w-full h-full object-cover' src={assets.myImage2} alt="profile" />
                             </div>
                             <div className='absolute -bottom-6 -right-6 w-32 h-32 border border-slate-600/20 rounded-xl overflow-hidden'>
                             <div className='w-full h-full flex items-center justify-center'>

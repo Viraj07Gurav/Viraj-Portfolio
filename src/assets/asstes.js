@@ -7,9 +7,10 @@ import appImage from '../assets/app.webp'
 import taskManagement from '../assets/taskmanagement.png'
 import bookshop from '../assets/bookshop.png'
 import bikerental from '../assets/bikerental.png'
-
+import myImage from '../assets/Myimage.jpeg'
+import myImage2 from '../assets/myimage2.png'
 export const assets = {
-    profileImg,
+    profileImg,myImage,myImage2
 }
 
 

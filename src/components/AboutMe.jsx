@@ -84,7 +84,7 @@ My approach combines technical knowledge with clean design thinking to build app
                     <div className="order-1 md:order-2 flex justify-center">
                         <div className="relative w-full max-w-md">
                             <div className="overflow-hidden">
-                                <img src={assets.profileImg} className="w-full h-full object-cover" alt="" />
+                                <img src={assets.myImage2} className="w-full h-full object-cover" alt="" />
                             </div>
                         </div>
                     </div>
