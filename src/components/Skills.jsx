@@ -6,7 +6,7 @@ const Skills = () => {
         <div id='skills' className="py-20" >
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-6">
-                    <h2 className="text-4xl sm:5xl font-bold"><span className=" text-teal-700">Technical</span> Skills</h2>
+                    <h2 className="text-4xl sm:5xl font-bold"><span className=" text-teal-800">Technical</span> Skills</h2>
                     <p className="text-zinc-500 text-xl max-w-3xl mx-auto">Mastering the tools that power modern web experiences.</p>
                 </div>
                 <div className="text-center mb-4"> <h2 className="text-2xl">Frontend Skills</h2></div>

@@ -85,10 +85,10 @@ const Contact = () => {
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-6">
                     <h2 className="font-bold text-4xl mb-4">
-                        Get In <span className="text-teal-700">Touch</span>
+                        Get In <span className="text-teal-800">Touch</span>
                     </h2>
                     <p className="text-zinc-600">
-                        Have a project in mind or want to discuss potential opportunities.
+                        Have a project in mind or want to discuss potential opportunities?
                     </p>
                 </div>
 

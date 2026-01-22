@@ -9,7 +9,7 @@ const Work = () => {
                     <div className="mb-6 text-center">
                         <h2 className="text-4xl sm:5xl font-bold">
                             Featured
-                            <span className="text-4xl sm:5xl text-teal-700">Projects</span>
+                            <span className="text-4xl sm:5xl text-teal-800">Projects</span>
                         </h2>
                         <p className="text-zinc-500 text-xl max-w-3xl mx-auto">Cutting-edge web applications built with modern technologies.</p>
 
