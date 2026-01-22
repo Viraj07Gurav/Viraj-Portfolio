@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { FaArrowRight } from 'react-icons/fa6';
 import emailjs from '@emailjs/browser';
+///please dont use my keys
+VITE_EMAILJS_SERVICE_ID=service_lgnsr7n
+VITE_EMAILJS_TEMPLATE_ID=template_islnh72
+VITE_EMAILJS_PUBLIC_KEY=Jk0QyZntRWpXFsuAt
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -55,10 +59,10 @@ const Contact = () => {
 
         emailjs
             .send(
-                import.meta.env.VITE_EMAILJS_SERVICE_ID,
-                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+                VITE_EMAILJS_SERVICE_ID,
+                VITE_EMAILJS_TEMPLATE_ID,
                 formData,
-                import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+                VITE_EMAILJS_PUBLIC_KEY
             )
             .then(() => {
                 showStatus('Message sent successfully!', 'success');
