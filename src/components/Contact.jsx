@@ -59,10 +59,10 @@ const Contact = () => {
 
         emailjs
             .send(
-                VITE_EMAILJS_SERVICE_ID,
-                VITE_EMAILJS_TEMPLATE_ID,
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
                 formData,
-                VITE_EMAILJS_PUBLIC_KEY
+                import.meta.env.VITE_EMAILJS_PUBLIC_KEY
             )
             .then(() => {
                 showStatus('Message sent successfully!', 'success');
