@@ -70,7 +70,7 @@ const Contact = () => {
                     message: '',
                 });
             })
-            .catch(() => {
+            .catch((error) => {
                   console.error("EmailJS ERROR 👉", error);
                 showStatus('Failed to send message. Try again later.', 'error');
             })
